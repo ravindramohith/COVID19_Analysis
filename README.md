@@ -41,7 +41,8 @@ The coronavirus or Covid-19 is a large family of viruses that causes illnesses r
         padding: 10px;
     }
     .image-container img {
-        width: 100%;
+        min-width: 50%;
+        min-height:50%;
         display: block;
         margin: 0 auto;
     }
