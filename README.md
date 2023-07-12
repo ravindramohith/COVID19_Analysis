@@ -1,6 +1,21 @@
-<!-- # COVID-19 Analysis
+# COVID-19 Analysis
 <img src="./images/img.jpg">
-
+<style>
+    .image-row {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .image-container {
+        flex: 50%;
+        padding: 10px;
+    }
+    .image-container img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+</style>
 ---
 
 ## Coronavirus
@@ -30,24 +45,6 @@ The coronavirus or Covid-19 is a large family of viruses that causes illnesses r
 
 ---
 ### Part-1: Covid Cases in India
-<style>
-    .image-row {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    .image-container {
-        flex: 50%;
-        padding: 10px;
-    }
-    .image-container img {
-        width: 450px;
-        height:310px;
-        display: block;
-        margin: 0 auto;
-    }
-</style>
-
 #### 1.1 Plot Visualization:
 <div class="image-row">
     <div class="image-container">
@@ -214,45 +211,4 @@ The coronavirus or Covid-19 is a large family of viruses that causes illnesses r
 
 #### 4.2 Time Lapse
 ![1](./images/time_series/time_lapse.gif)
-**Watch the video [here](./images/time_series/time_lapse.mp4)** -->
-
-### Part-1: Covid Cases in India
-<style>
-    .image-row {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    .image-container {
-        flex: 50%;
-        padding: 10px;
-    }
-    .image-container img {
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-    }
-</style>
-
-#### 1.1 Plot Visualization:
-<div class="image-row">
-    <div class="image-container">
-        <img src="./images/covid_india/1.png" alt="1">
-    </div>
-    <div class="image-container">
-        <img src="./images/covid_india/2.png" alt="2">
-    </div>
-</div>
-<div class="image-row">
-    <div class="image-container">
-        <img src="./images/covid_india/3.png" alt="3">
-    </div>
-    <div class="image-container">
-        <img src="./images/covid_india/4.png" alt="4">
-    </div>
-</div>
-<div class="image-row">
-    <div class="image-container">
-        <img src="./images/covid_india/5.png" alt="5">
-    </div>
-</div>
+**Watch the video [here](./images/time_series/time_lapse.mp4)**
